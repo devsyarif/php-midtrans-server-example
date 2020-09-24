@@ -26,6 +26,7 @@ $charge_result = chargeAPI($api_url, $server_key, $request_body);
 
 http_response_code($charge_result['http_code']);
 
+echo 'kambiang';
 echo $charge_result['body'];
 
 
